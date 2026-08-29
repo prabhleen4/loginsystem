@@ -65,7 +65,7 @@ Database
 Development Tools
 •	XAMPP — Local development environment using Apache and MySQL.
 •	Git — Version control.
-•	GitHub — Hosting and managing the project repository.
+•	GitHub — Hosting and managing the project repository. 
 
 
 
