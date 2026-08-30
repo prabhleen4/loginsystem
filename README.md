@@ -67,6 +67,45 @@ Development Tools
 •	Git — Version control.
 •	GitHub — Hosting and managing the project repository. 
 
+D. How Book Oasis Works
+
+Book Oasis consists of a customer-side interface and a supplier-side interface.
+
+1. Customer Workflow :
+
+Customer
+   ↓
+Browse Books
+   ↓
+Select a Book
+   ↓
+Add to Cart
+   ↓
+Checkout
+   ↓
+Simulated Payment Process
+
+2. Supplier Workflow:
+
+Supplier
+   ↓
+Supplier Interface
+   ↓
+Enter Book Information
+   ↓
+Submit Book Details
+   ↓
+PHP Backend
+   ↓
+MySQL Database
+(*The supplier workflow is currently a Work in Progress (WIP). Some supplier-side functionality is still under development.*)
+
+
+        
+
+
+
+
 
 
 
