@@ -100,6 +100,81 @@ PHP Backend
 MySQL Database
 (*The supplier workflow is currently a Work in Progress (WIP). Some supplier-side functionality is still under development.*)
 
+E. Databases
+
+Book Oasis uses "MySQL" to store and manage website data.
+
+The database was created and managed using "phpMyAdmin". It is used to demonstrate how an e-commerce website can store, retrieve, and manage information.
+
+The database is used for information related to the website, such as:-
+
+- Books
+- Book categories
+- Prices
+- User information
+- Orders
+- Checkout information
+- Payment simulation data
+
+PHP is used to connect the website with the MySQL database and handle database-related operations.
+
+(*The payment functionality in this project is for "simulation and educational purposes only" and does not process real payments.*)
+
+F. How to Run the Project Locally
+
+Book Oasis was developed using XAMPP and can be run on a local computer.
+
+Step 1. Install XAMPP
+
+Install XAMPP and start the following services:
+
+- Apache
+- MySQL
+
+Step 2. Place the Project in XAMPP
+
+Copy the Book Oasis project folder into the `htdocs` folder of XAMPP.
+
+For example:
+
+```text
+C:\xampp\htdocs\BookOasis
+__________________________________________________________
+3. Create the Database
+
+Open phpMyAdmin in your browser:
+
+http://localhost/phpmyadmin
+
+Create the database required by the project.
+
+If an SQL database file is included in this repository, import the SQL file into phpMyAdmin.
+
+4. Configure the Database Connection
+
+Make sure the PHP database connection is configured with the correct local MySQL details.
+
+Typical XAMPP settings are:
+
+Host: localhost
+Username: root
+Password:
+Database: your_database_name
+5. Open Book Oasis
+
+Open the following in your browser:
+
+http://localhost/BookOasis/
+
+The Book Oasis website should now run locally through XAMPP.
+
+
+**Important:** Don't change the `BookOasis` path unless that is actually the name of your project folder. If your actual folder is `loginsystem`, for example, we will use that instead.
+
+Don't commit yet.
+
+When you've pasted this, say **NEXT** and we'll do **Step 9 — Project Objectives**.
+
 
         
 
