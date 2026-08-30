@@ -162,7 +162,7 @@ Step. Open Book Oasis Website
 
 Open the following in your browser:
 
-https://localhost/loginsystem/
+http://localhost/loginsystem/INDEX.php
 
 The Book Oasis website should now run locally through XAMPP.
 
