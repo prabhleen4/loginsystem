@@ -135,12 +135,9 @@ Step 2. Place the Project in XAMPP
 
 Copy the Book Oasis project folder into the `htdocs` folder of XAMPP.
 
-For example:
+For example: C:\xampp\htdocs\BookOasis
 
-```text
-C:\xampp\htdocs\BookOasis
-__________________________________________________________
-3. Create the Database
+Step 3. Create the Database
 
 Open phpMyAdmin in your browser:
 
@@ -148,9 +145,9 @@ http://localhost/phpmyadmin
 
 Create the database required by the project.
 
-If an SQL database file is included in this repository, import the SQL file into phpMyAdmin.
+Import the SQL files from "Databses folder" into phpMyAdmin.
 
-4. Configure the Database Connection
+Step 4. Configure the Database Connection
 
 Make sure the PHP database connection is configured with the correct local MySQL details.
 
@@ -160,20 +157,16 @@ Host: localhost
 Username: root
 Password:
 Database: your_database_name
-5. Open Book Oasis
+
+Step. Open Book Oasis Website
 
 Open the following in your browser:
 
-http://localhost/BookOasis/
+https://localhost/loginsystem/
 
 The Book Oasis website should now run locally through XAMPP.
 
 
-**Important:** Don't change the `BookOasis` path unless that is actually the name of your project folder. If your actual folder is `loginsystem`, for example, we will use that instead.
-
-Don't commit yet.
-
-When you've pasted this, say **NEXT** and we'll do **Step 9 — Project Objectives**.
 
 
         
